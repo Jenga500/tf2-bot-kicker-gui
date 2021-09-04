@@ -6,6 +6,7 @@ On windows run `First Time setup Windows.bat` and follow the instructions.
 On linux run `First time Setup Linux.sh` and also follow the instructions.
 # Compiling:
 create a folder called `command-line`
+
 Run `qmake ./` and `make`
 # Screenshot:
 ![screenshot](https://raw.githubusercontent.com/Jenga500/tf2-bot-kicker-gui/master/Screenshots/Screenshot_20210904_224534.png)
