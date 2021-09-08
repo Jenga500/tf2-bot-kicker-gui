@@ -18,14 +18,14 @@
     <item row="5" column="0" colspan="4">
      <widget class="QCheckBox" name="reminders">
       <property name="text">
-       <string>Continously remind the enemy team of bots in their team until they are kicked</string>
+       <string>Repeatedly send chat messages about joined bots</string>
       </property>
      </widget>
     </item>
     <item row="4" column="0" colspan="4">
      <widget class="QCheckBox" name="messageonjoin">
       <property name="text">
-       <string>Send a message to the enemy team whenever a bot joins their team</string>
+       <string>Send a chat message when a bot joins</string>
       </property>
      </widget>
     </item>
