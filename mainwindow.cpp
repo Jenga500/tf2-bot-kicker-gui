@@ -105,7 +105,7 @@ void MainWindow::on_startbutton_clicked()
     config_file.open("command-line/cfg/settings.cfg", ios::out);
     config_file << "# (optional) uuid of user (to not try and kick bots on enemy team)" << endl
                 << "user = " << UUID << endl << "tf2_directory = " << path << endl
-                << "join_alerts = " << (join_alerts?"true":"false") << endl
+                << "join_alert = " << (join_alerts?"true":"false") << endl
                 << "chat_reminders = " << (chat_reminders?"true":"false") << endl
                 << "kick = " << (kick?"true":"false") << endl
                 << "period = " << timeout;
